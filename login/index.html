@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body-bg-liquid">
+        <svg viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+            <path d="M0,160 C360,320 1080,0 1440,160 L1440,600 L0,600 Z" fill="#e3f3ff" opacity="0.7"/>
+            <path d="M0,320 C480,480 960,160 1440,320 L1440,600 L0,600 Z" fill="#b3e0ff" opacity="0.5"/>
+            <path d="M0,400 C600,600 840,200 1440,400 L1440,600 L0,600 Z" fill="#6ec6ff" opacity="0.3"/>
+        </svg>
+    </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
